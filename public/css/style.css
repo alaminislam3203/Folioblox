@@ -378,7 +378,7 @@ ul, ol {
   flex-shrink: 0;
 }
 
-/* White Pill Button with Orange Circular Arrow */
+
 .btn-nav-touch {
   background-color: var(--color-white);
   color: var(--color-dark);
@@ -458,7 +458,7 @@ ul, ol {
   }
 }
 
-/* --- 7. HERO SECTION (CURVED DARK CANVAS WITH IMAGE BACKGROUND) --- */
+
 .hero-canvas {
   background-color: #0b0c10;
   border-bottom-left-radius: 40px;
@@ -587,7 +587,7 @@ ul, ol {
   line-height: 1.3;
 }
 
-/* Subpage Hero (About, Projects, Contact) */
+
 .page-hero {
   background-color: #0b0c10;
   border-bottom-left-radius: 60px;
@@ -639,7 +639,7 @@ ul, ol {
   margin-bottom: 0;
 }
 
-/* --- 8. LOGO TICKER / CLIENT STRIP (INFINITE MARQUEE ANIMATION) --- */
+
 .logos-section {
   padding: 60px 0 80px;
   background-color: var(--color-white);
@@ -698,7 +698,7 @@ ul, ol {
   100% { transform: translateX(-50%); }
 }
 
-/* Scroll-Driven Reveal Animations */
+
 .reveal {
   opacity: 0;
   transform: translateY(28px);
@@ -716,13 +716,13 @@ ul, ol {
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
 
-/* --- 9. BEHIND THE DESIGNS / BENTO SHOWCASE --- */
+
 .bento-section {
   padding: 80px 0 100px;
   background-color: var(--color-white);
 }
 
-/* Behind the Designs 3-Image Grid */
+
 .behind-designs-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -849,13 +849,13 @@ ul, ol {
   z-index: 1;
 }
 
-/* --- 10. PROJECTS GRID & PROJECT CARDS --- */
+
 .projects-section {
   padding: 100px 0;
   background-color: var(--color-white);
 }
 
-/* Featured Projects Showcase List (Screenshot Layout) */
+
 .featured-projects-list {
   display: flex;
   flex-direction: column;
@@ -1167,7 +1167,7 @@ ul, ol {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- 12. CTA BANNER (SUNSET BANNER MATCHING SCREENSHOT) --- */
+
 .cta-sunset-section {
   padding: 30px 0 60px;
 }
@@ -1477,7 +1477,7 @@ ul, ol {
 
 
 
-/* --- 14. CASE STUDY DETAIL PAGES --- */
+
 .case-hero {
   background-color: var(--color-dark);
   border-bottom-left-radius: var(--radius-hero);
@@ -1746,7 +1746,7 @@ textarea.form-control {
   letter-spacing: -0.04em;
 }
 
-/* --- 18. ABOUT PAGE BIO & EXPERIENCE STYLES --- */
+
 .about-bio-grid {
   display: grid;
   grid-template-columns: 1fr 1.6fr;
@@ -2032,7 +2032,7 @@ textarea.form-control {
   white-space: nowrap;
 }
 
-/* --- 20. APPROACH & BENTO GRID (SCREENSHOT LAYOUT) --- */
+
 .approach-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -2155,7 +2155,7 @@ textarea.form-control {
   color: var(--color-gray-text);
 }
 
-/* --- 21. SERVICES SECTION (MATCHING SCREENSHOT) --- */
+
 .services-section {
   padding: 100px 0;
   background-color: var(--color-white);
@@ -2241,7 +2241,7 @@ textarea.form-control {
   }
 }
 
-/* --- 22. STEP-BY-STEP PROCESS SECTION (MATCHING SCREENSHOT) --- */
+
 .process-section-wrap {
   padding: 100px 0;
   background-color: var(--color-white);
@@ -2346,7 +2346,7 @@ textarea.form-control {
   display: block;
 }
 
-/* HOVER or ACTIVE STATE (SCREENSHOT ORANGE CARD) */
+
 .process-row:hover,
 .process-row.active {
   background-color: var(--color-primary) !important;
@@ -2418,7 +2418,7 @@ textarea.form-control {
   }
 }
 
-/* --- 22B. 3D FAN ARCH SHOWCASE (SCREENSHOT 100% MATCH) --- */
+
 .showcase-3d-section {
   padding: 100px 0 80px;
   background-color: var(--color-white);
@@ -2511,7 +2511,7 @@ textarea.form-control {
   user-select: none;
 }
 
-/* 12 Positions around the 3D cylinder (30deg intervals, -780px radius for concave amphitheater) */
+
 .fan-card:nth-child(1)  { transform: rotateY(0deg) translateZ(-780px); }
 .fan-card:nth-child(2)  { transform: rotateY(30deg) translateZ(-780px); }
 .fan-card:nth-child(3)  { transform: rotateY(60deg) translateZ(-780px); }
