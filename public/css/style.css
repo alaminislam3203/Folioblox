@@ -301,3 +301,160 @@ ul, ol {
 
 
 
+/* --- 6. NAVBAR & HEADER --- */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 30px 0;
+  background: transparent;
+}
+
+.site-header .container {
+  max-width: 100%;
+  padding: 0 40px;
+  width: 100%;
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.brand-logo {
+  font-family: var(--font-heading);
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--color-white);
+  letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.brand-logo span {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-left: 2px;
+  font-weight: 800;
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: auto;
+  margin-right: 32px;
+}
+
+.nav-link {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  position: relative;
+  transition: var(--transition);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-primary);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+/* White Pill Button with Orange Circular Arrow */
+.btn-nav-touch {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 6px 6px 20px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 700;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.btn-nav-touch:hover {
+  background-color: #f2f2f2;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  color: var(--color-dark);
+}
+
+.btn-icon-orange {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.btn-nav-touch:hover .btn-icon-orange {
+  background-color: var(--color-primary-hover);
+  transform: rotate(45deg);
+}
+
+.mobile-toggle {
+  display: none;
+  background: none;
+  color: var(--color-white);
+  font-size: 26px;
+  cursor: pointer;
+}
+
+@media (max-width: 809px) {
+  .site-header {
+    padding: 20px 0;
+  }
+  .site-header .container {
+    padding: 0 20px;
+  }
+  .mobile-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    right: 20px;
+    background: rgba(13, 13, 13, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    flex-direction: column;
+    padding: 24px;
+    gap: 18px;
+    margin: 12px 0 0 0;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+  .nav-links.open {
+    display: flex;
+  }
+}
+
