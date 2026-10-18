@@ -151,3 +151,153 @@ ul, ol {
   list-style: none;
 }
 
+/* --- 4. CONTAINER & UTILITY CLASSES --- */
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.container-sm {
+  max-width: 900px;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.section-head {
+  margin-bottom: 60px;
+}
+
+.section-subtitle {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+  display: block;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  
+}
+.footer-brand-title {
+  font-family: var(--font-heading);
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 700;
+  line-height: 1.15;
+  /* letter-spacing: -0.02em; */
+  
+}
+
+.section-desc {
+  font-size: 18px;
+  color: var(--color-gray-text);
+  margin-top: 16px;
+  max-width: 600px;
+}
+
+/* --- 5. BUTTONS & PILLS --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 28px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 94, 0, 0.3);
+}
+
+.btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+.btn-dark:hover {
+  background-color: #222222;
+  transform: translateY(-2px);
+}
+
+.btn-white {
+  background-color: var(--color-white);
+  color: var(--color-dark);
+}
+
+.btn-white:hover {
+  background-color: var(--color-gray-light);
+  transform: translateY(-2px);
+}
+
+.btn-icon-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.btn:hover .btn-icon-circle {
+  transform: translateX(4px);
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-pill);
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.pill-badge.light {
+  background-color: var(--color-gray-light);
+  border-color: var(--color-gray-border);
+  color: var(--color-dark);
+}
+
+.tag-year {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+
+
