@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Folioblox - Portfolio Framer template</title>
+  <meta name="description" content="Folioblox, a Framer template for creative portfolios, is ideal for personal portfolios, designers, freelancers, agencies, and photographers.">
+  
+  <link href="./public/images/icons/default-favicon-light.v1.png" rel="icon" media="(prefers-color-scheme: light)">
+  <link href="./public/images/icons/default-favicon-dark.v1.png" rel="icon" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="./public/images/icons/default-touch-icon.v3.png">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Folioblox - Portfolio Framer template">
+  <meta property="og:description" content="Folioblox, a Framer template for creative portfolios, is ideal for personal portfolios, designers, freelancers, agencies, and photographers.">
+  <meta property="og:url" content="/">
+  
+  <!-- Standard Clean Stylesheet -->
+  <link rel="stylesheet" href="./public/css/style.css">
+  <script src="./public/js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand-logo" aria-label="Folioblox Home">Folioblox<span>®</span></a>
+        
+        <nav class="nav-links" id="navMenu">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="projects.html" class="nav-link">Projects</a>
+        </nav>
+        
+        <div class="nav-actions">
+          <a href="contact.html" class="btn-nav-touch">
+            <span>Get in touch</span>
+            <span class="btn-icon-orange">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </span>
+          </a>
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">&#9776;</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-canvas">
+    <img class="hero-img-bg" src="./public/images/home/hero-bg.png" alt="Dominic Wagner - Brand Designer" loading="eager">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content">
+      <div class="hero-header-row reveal">
+        <div class="hero-headline-wrap">
+          <p class="hero-eyebrow">Hey, I'm a</p>
+          <h1 class="hero-headline">Brand<br>Designer</h1>
+        </div>
+        <div class="hero-subtext-wrap">
+          <h2 class="hero-subtext-heading">Great design should feel invisible.</h2>
+          <p class="hero-subtext-desc">From logo to language, I build brands that connect and convert.</p>
+        </div>
+      </div>
+
+      <div class="hero-features-grid reveal reveal-delay-2">
+        <div class="feature-pill-item">
+          <span class="feature-pill-number">#01</span>
+          <span class="feature-pill-title">Brand Strategy</span>
+        </div>
+        <div class="feature-pill-item">
+          <span class="feature-pill-number">#02</span>
+          <span class="feature-pill-title">Brand Identity Design</span>
+        </div>
+        <div class="feature-pill-item">
+          <span class="feature-pill-number">#03</span>
+          <span class="feature-pill-title">Packaging Design</span>
+        </div>
+        <div class="feature-pill-item">
+          <span class="feature-pill-number">#04</span>
+          <span class="feature-pill-title">Creative Direction</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CLIENT LOGOS STRIP (INFINITE MARQUEE) ================= -->
+  <section class="logos-section">
+    <div class="container">
+      <h2 class="logos-heading">Trusted by Brands I’ve Helped Shape</h2>
+    </div>
+    <div class="marquee-container">
+      <div class="marquee-track">
+        <!-- Set 1 -->
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-2.png" alt="Client Logo 1" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-14.png" alt="Client Logo 2" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-15.png" alt="Client Logo 3" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-1.png" alt="Client Logo 4" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-6.png" alt="Client Logo 5" width="160" height="32" loading="lazy"></div>
+      
+        
+        <!-- Set 2 (for seamless infinite loop) -->
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-2.png" alt="Client Logo 1" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-14.png" alt="Client Logo 2" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-15.png" alt="Client Logo 3" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-1.png" alt="Client Logo 4" width="160" height="32" loading="lazy"></div>
+        <div class="logo-item"><img src="./public/images/hero/feature-badge-6.png" alt="Client Logo 5" width="160" height="32" loading="lazy"></div>
+       
+      
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BEHIND THE DESIGNS / BENTO SHOWCASE ================= -->
+  <section class="bento-section">
+    <div class="container">
+      <div class="section-head section-head-flex reveal">
+        <div>
+          <span class="section-subtitle">Behind the Designs</span>
+          <h2 class="section-title">Shaping Experiences That Make Life Simpler</h2>
+          <p class="section-desc">I'm a product designer focused on building clean, intuitive interfaces that solve real-world problems.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Get in touch   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg></a>
+      </div>
+
+      <div class="behind-designs-grid">
+        <div class="behind-designs-card reveal">
+          <img src="./public/images/home/behind-designs-1.png" alt="Behind the Designs - Cap" loading="lazy">
+        </div>
+        <div class="behind-designs-card reveal reveal-delay-1">
+          <img src="./public/images/home/behind-designs-2.png" alt="Behind the Designs - Jacket" loading="lazy">
+        </div>
+        <div class="behind-designs-card reveal reveal-delay-2">
+          <img src="./public/images/home/behind-designs-3.png" alt="Behind the Designs - Jar" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED PROJECTS ================= -->
+  <section class="projects-section">
+    <div class="container">
+      <div class="section-head section-head-flex reveal">
+        <div>
+          <span class="section-subtitle">Featured Projects</span>
+          <h2 class="section-title">Designing Bold Brands That Leave a Lasting Impression</h2>
+        </div>
+        <a href="projects.html" class="btn btn-dark">View All Projects</a>
+      </div>
+
+      <div class="featured-projects-list">
+        <!-- Project 1: Orange Blox (Text Left, Image Right) -->
+        <div class="featured-project-row reveal">
+          <div class="featured-project-info">
+            <div class="featured-project-line"></div>
+            <h3 class="featured-project-title">Orange Blox</h3>
+            <p class="featured-project-desc">The image shows flowing shapes in iridescent hues, from deep blues and purples to vibrant pinks and oranges, creating an ethereal effect.</p>
+            <a href="projects/orange-blox.html" class="btn-project-view">
+              <span>View</span>
+              <span class="btn-project-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+          </div>
+          <a href="projects/orange-blox.html" class="featured-project-thumb" aria-label="View Orange Blox Project">
+            <img src="./public/images/projects/orange-blox/orange-blox-cover.png" alt="Orange Blox" loading="lazy">
+          </a>
+        </div>
+
+        <!-- Project 2: Dream Area (Image Left, Text Right) -->
+        <div class="featured-project-row reverse reveal">
+          <a href="projects/dream-area.html" class="featured-project-thumb" aria-label="View Dream Area Project">
+            <img src="./public/images/projects/dream-area/dream-area-cover.png" alt="Dream Area" loading="lazy">
+          </a>
+          <div class="featured-project-info">
+            <div class="featured-project-line"></div>
+            <h3 class="featured-project-title">Dream Area</h3>
+            <p class="featured-project-desc">The image shows flowing shapes in iridescent hues, from deep blues and purples to vibrant pinks and oranges, creating an ethereal effect.</p>
+            <a href="projects/dream-area.html" class="btn-project-view">
+              <span>View</span>
+              <span class="btn-project-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Nova Scene (Text Left, Image Right) -->
+        <div class="featured-project-row reveal">
+          <div class="featured-project-info">
+            <div class="featured-project-line"></div>
+            <h3 class="featured-project-title">Nova Scene</h3>
+            <p class="featured-project-desc">Strategic brand positioning and design system creating strong brand recall and digital engagement across modern platforms.</p>
+            <a href="projects/nova-scene.html" class="btn-project-view">
+              <span>View</span>
+              <span class="btn-project-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+          </div>
+          <a href="projects/nova-scene.html" class="featured-project-thumb" aria-label="View Nova Scene Project">
+            <img src="./public/images/projects/nova-scene/nova-scene-cover.png" alt="Nova Scene" loading="lazy">
+          </a>
+        </div>
+
+        <!-- Project 4: Liquid (Image Left, Text Right) -->
+        <div class="featured-project-row reverse reveal">
+          <a href="projects/liquid.html" class="featured-project-thumb" aria-label="View Liquid Project">
+            <img src="./public/images/projects/liquid/liquid-cover.png" alt="Liquid" loading="lazy">
+          </a>
+          <div class="featured-project-info">
+            <div class="featured-project-line"></div>
+            <h3 class="featured-project-title">Liquid</h3>
+            <p class="featured-project-desc">Fluid brand identity and creative direction capturing movement and elegance with sophisticated modern aesthetics.</p>
+            <a href="projects/liquid.html" class="btn-project-view">
+              <span>View</span>
+              <span class="btn-project-circle">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOW I APPROACH EVERY PROJECT ================= -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-subtitle">Intentional. Collaborative. Built to Last.</span>
+        <h2 class="section-title">How I Approach Every Project</h2>
+        <p class="section-desc">I design with clarity and purpose—blending strategy and style to build brands that look great and work everywhere.</p>
+      </div>
+
+      <div class="approach-grid">
+        <!-- Card 1: Strategy First (Wide with Hat in Forest Image) -->
+        <div class="approach-card card-wide has-bg reveal">
+          <img class="approach-bg-img" src="./public/images/home/approach-strategy-first.png" alt="Strategy First - White Hat" loading="lazy">
+          <div class="approach-overlay"></div>
+          <div class="approach-content">
+            <div class="approach-accent-line"></div>
+            <h3 class="approach-title">Strategy First</h3>
+            <p class="approach-desc">Every design decision is rooted in a clear brand strategy. No guesswork.</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Design That Resonates (Narrow Solid Orange) -->
+        <div class="approach-card card-narrow is-orange reveal reveal-delay-1">
+          <div class="approach-content">
+            <div class="approach-accent-line light"></div>
+            <h3 class="approach-title">Design That Resonates</h3>
+            <p class="approach-desc">Visuals that connect emotionally and communicate clearly.</p>
+          </div>
+        </div>
+
+        <!-- Card 3: Future-Proof Systems (Narrow Light Gray) -->
+        <div class="approach-card card-narrow is-gray reveal">
+          <div class="approach-content">
+            <div class="approach-accent-line"></div>
+            <h3 class="approach-title text-dark">Future-Proof Systems</h3>
+            <p class="approach-desc text-muted">Design that’s flexible, scalable, and easy to use.</p>
+          </div>
+        </div>
+
+        <!-- Card 4: Consistency Across Touchpoints (Wide with Tote Bag in Sky Image) -->
+        <div class="approach-card card-wide has-bg reveal reveal-delay-1">
+          <img class="approach-bg-img" src="./public/images/home/approach-consistency.png" alt="Consistency Across Touchpoints - Tote Bag" loading="lazy">
+          <div class="approach-overlay"></div>
+          <div class="approach-content">
+            <div class="approach-accent-line"></div>
+            <h3 class="approach-title">Consistency Across Touchpoints</h3>
+            <p class="approach-desc">From logo to social templates, I help you stay on-brand everywhere.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES SECTION ================= -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-head section-head-flex reveal">
+        <div>
+          <span class="section-subtitle">Services</span>
+          <h2 class="section-title">What I Can Help You With</h2>
+          <p class="section-desc">From strategy to visuals, I offer tailored services to help your brand grow with clarity and impact.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">
+          <span>Let’s Build Together</span>
+          <span class="btn-icon-circle">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal">
+          <div class="service-accent-line"></div>
+          <div class="service-bottom-content">
+            <p class="service-subtitle">Your brand, visually defined.</p>
+            <h3 class="service-title">Brand Identity Design</h3>
+            <p class="service-desc">Logos, typography, color systems, and complete visual direction.</p>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-accent-line"></div>
+          <div class="service-bottom-content">
+            <p class="service-subtitle">Clarity behind the visuals.</p>
+            <h3 class="service-title">Brand Strategy</h3>
+            <p class="service-desc">Positioning, messaging, and creative direction aligned with your goals.</p>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-accent-line"></div>
+          <div class="service-bottom-content">
+            <p class="service-subtitle">Ongoing expert guidance.</p>
+            <h3 class="service-title">Creative Consulting</h3>
+            <p class="service-desc">Ongoing design support, art direction, and guidance for your brand team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA BANNER (SUNSET) ================= -->
+  <section class="container cta-sunset-section">
+    <div class="cta-sunset-banner reveal">
+      <img src="./public/images/home/cta-banner-sunset.png" alt="Let's Bring Your Brand to Life" class="cta-sunset-bg" loading="lazy">
+      <div class="cta-sunset-overlay"></div>
+      <div class="cta-sunset-content">
+        <span class="cta-sunset-subtitle">Start Your Brand</span>
+        <h2 class="cta-sunset-title">Let’s Bring Your<br>Brand to Life</h2>
+        <p class="cta-sunset-desc">Ready to make something amazing together? Whether you're starting fresh or evolving your brand, I'm here to help.</p>
+        <a href="contact.html" class="btn-nav-touch">
+          <span>Get In Touch</span>
+          <span class="btn-icon-orange">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STEP-BY-STEP PROCESS ================= -->
+  <section class="process-section-wrap">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-subtitle">Step-by-Step</span>
+        <h2 class="section-title">My Process, Step by Step</h2>
+        <p class="section-desc">From first ideas to final assets, I follow a clear, collaborative process—built to turn your vision into a brand that works and lasts.</p>
+      </div>
+
+      <div class="process-list-container reveal">
+        <!-- Step 01 -->
+        <div class="process-row active" data-step="1">
+          <div class="process-left">
+            <span class="process-bar"></span>
+            <span class="process-num">01</span>
+            <h3 class="process-title">Discovery</h3>
+          </div>
+          <p class="process-desc">Understanding your vision, audience, and goals.</p>
+          <div class="process-media">
+            <img src="./public/images/hero/feature-badge-8.webp" alt="Discovery Process" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="process-row" data-step="2">
+          <div class="process-left">
+            <span class="process-bar"></span>
+            <span class="process-num">02</span>
+            <h3 class="process-title">Strategy</h3>
+          </div>
+          <p class="process-desc">Defining your unique positioning and messaging.</p>
+          <div class="process-media">
+            <img src="./public/images/hero/feature-badge-11.png" alt="Strategy Process" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="process-row" data-step="3">
+          <div class="process-left">
+            <span class="process-bar"></span>
+            <span class="process-num">03</span>
+            <h3 class="process-title">Design</h3>
+          </div>
+          <p class="process-desc">Creating your visual identity system and touchpoints.</p>
+          <div class="process-media">
+            <img src="./public/images/hero/feature-badge-5.png" alt="Design Process" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Step 04 -->
+        <div class="process-row" data-step="4">
+          <div class="process-left">
+            <span class="process-bar"></span>
+            <span class="process-num">04</span>
+            <h3 class="process-title">Delivery</h3>
+          </div>
+          <p class="process-desc">Providing all assets, brand guidelines, and support.</p>
+          <div class="process-media">
+            <img src="./public/images/hero/feature-badge-20.png" alt="Delivery Process" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Step 05 -->
+        <div class="process-row" data-step="5">
+          <div class="process-left">
+            <span class="process-bar"></span>
+            <span class="process-num">05</span>
+            <h3 class="process-title">Ongoing Support</h3>
+          </div>
+          <p class="process-desc">I stay available for updates, extensions, and evolution.</p>
+          <div class="process-media">
+            <img src="./public/images/hero/feature-badge-21.png" alt="Ongoing Support Process" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3D CURVED CAROUSEL SHOWCASE (SCREENSHOT MATCH) ================= -->
+  <section class="showcase-3d-section">
+    <div class="container">
+      <div class="section-head section-head-centered reveal">
+        <span class="section-subtitle">Behind the Designs</span>
+        <h2 class="section-title">Curious What Else I’ve<br>Created?</h2>
+        <p class="section-desc mx-auto">Explore more brand identities, packaging, and digital design work in my extended portfolio.</p>
+        <div class="showcase-btn-wrap">
+          <a href="projects.html" class="btn-nav-touch">
+            <span>See more Projects</span>
+            <span class="btn-icon-orange">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3D Curved Arc Gallery Viewport (Exact Screenshot Layout) -->
+    <div class="fan-3d-viewport" id="fan3dViewport">
+      <div class="fan-3d-vignette-left"></div>
+      <div class="fan-3d-vignette-right"></div>
+      <div class="fan-3d-track" id="fan3dTrack">
+        <!-- 1: Strawberry Smoothie (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-3.png" alt="Strawberry Smoothie Design" loading="lazy">
+        </div>
+        <!-- 2: Volcanic Lava Dropper Bottle (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-1.png" alt="Lava Rock Dropper Bottle" loading="lazy">
+        </div>
+        <!-- 3: Perfume Bottle in Mist (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-9.png" alt="Perfume Bottle Design" loading="lazy">
+        </div>
+        <!-- 4: Orange Puffer Jacket (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-10.png" alt="Orange Winter Jacket" loading="lazy">
+        </div>
+        <!-- 5: Center Black Hoodie (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-8.png" alt="Black Hoodie Apparel" loading="lazy">
+        </div>
+        <!-- 6: Glowing Hands Man (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-6.png" alt="Glowing Art Visual" loading="lazy">
+        </div>
+        <!-- 7: Lemonade Drink (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-4.png" alt="Lemonade Cup Drink" loading="lazy">
+        </div>
+        <!-- 8: Apparel in Grass (from screenshot) -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-2.png" alt="Apparel Design" loading="lazy">
+        </div>
+        <!-- 9: Tote Bag in Jungle -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-5.png" alt="Tote Bag Design" loading="lazy">
+        </div>
+        <!-- 10: Girl in Oversized White Sweater -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-7.png" alt="Fashion Editorial" loading="lazy">
+        </div>
+        <!-- 11: Drink Can in Hands -->
+        <div class="fan-card">
+          <img src="./public/images/home/fan-11.png" alt="Beverage Packaging" loading="lazy">
+        </div>
+        <!-- 12: Golden Head Art Sculpture -->
+        <div class="fan-card">
+          <img src="./public/images/home/more-work-golden-head.png" alt="Art Sculpture" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 Sub-Pillars underneath matching screenshot -->
+    <div class="container">
+      <div class="showcase-pillars-grid reveal">
+        <div class="showcase-pillar-item">
+          <span class="pillar-num">#01</span>
+          <h4 class="pillar-title">Strategy &amp; Planning</h4>
+        </div>
+        <div class="showcase-pillar-item">
+          <span class="pillar-num">#02</span>
+          <h4 class="pillar-title">Design &amp; Development</h4>
+        </div>
+        <div class="showcase-pillar-item">
+          <span class="pillar-num">#03</span>
+          <h4 class="pillar-title">Launch &amp; Growth</h4>
+        </div>
+        <div class="showcase-pillar-item">
+          <span class="pillar-num">#04</span>
+          <h4 class="pillar-title">Ongoing Support</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= VALUES SECTION ================= -->
+  <section class="values-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-subtitle">Values</span>
+        <h2 class="values-section-title">What Guides My Work</h2>
+        <p class="section-desc">My mission, vision, and values are at the core of every project—guiding how I think, create, and collaborate to build brands that matter.</p>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card reveal">
+          <p class="value-label">Core Mission</p>
+          <h3 class="value-title">Mission</h3>
+          <p class="value-desc">To help ambitious brands express their unique voice with clarity, conviction, and aesthetic beauty.</p>
+        </div>
+
+        <div class="value-card reveal reveal-delay-1">
+          <p class="value-label">Forward Look</p>
+          <h3 class="value-title">Vision</h3>
+          <p class="value-desc">A world where thoughtful, honest design drives meaningful human connections and lasting value.</p>
+        </div>
+
+        <div class="value-card reveal reveal-delay-2">
+          <p class="value-label">Guiding Principles</p>
+          <h3 class="value-title">Values</h3>
+          <p class="value-desc">Simplicity, empathy, craftsmanship, transparency, and relentlessly strategic thinking.</p>
+        </div>
+
+        <div class="value-card reveal reveal-delay-3">
+          <p class="value-label">Design Mindset</p>
+          <h3 class="value-title">Design Philosophy</h3>
+          <p class="value-desc">Good design solves real problems effortlessly and tells enduring stories that truly stick.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ME SECTION ================= -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <span class="about-badge">About me</span>
+          <h2 class="about-heading">Designer. Strategist.<br>Creative partner.</h2>
+          <p class="about-tagline">Blending clarity and creativity to build brands with purpose.</p>
+          <div class="about-bio">
+            <p>I'm Dominic Wagner, a freelance brand designer with 15 years of experience helping startups, creatives, and growing businesses build identities that feel like them. With a background in design, marketing, art direction, and brand strategy.</p>
+            <p>I bring a balance of strategy and style to every project. Whether it's your first brand or a full refresh, I'm here to guide you every step of the way.</p>
+          </div>
+          <a href="about.html" class="about-btn-pill">
+            <span>Read more</span>
+            <span class="about-btn-circle">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+        <div class="about-media reveal reveal-delay-1">
+          <div class="about-video-card">
+            <video class="about-video-player" autoplay loop muted playsinline>
+              <source src="./public/videos/live-video-1.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRICING SECTION ================= -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-head section-head-centered reveal">
+        <span class="section-subtitle">Pricing</span>
+        <h2 class="section-title">Simple Packages for Every Stage</h2>
+        <p class="section-desc mx-auto">Clear, flexible packages built to fit your brand’s stage.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Starter Plan -->
+        <div class="pricing-card reveal">
+          <div>
+            <div class="pricing-header">
+              <h3>Starter</h3>
+              <p class="pricing-desc">Perfect for early-stage startups.</p>
+            </div>
+            <div class="pricing-amount">
+              $1,990 <span>/month</span>
+            </div>
+            <div class="pricing-features">
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Primary &amp; secondary logo</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Curated color palette</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Basic brand style guide</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Digital asset exports</span>
+              </div>
+            </div>
+          </div>
+          <a href="contact.html" class="btn btn-dark btn-block">Get in touch</a>
+        </div>
+
+        <!-- Pro Plan (Popular) -->
+        <div class="pricing-card popular reveal reveal-delay-1">
+          <span class="popular-badge">Popular</span>
+          <div>
+            <div class="pricing-header">
+              <h3>Pro plan</h3>
+              <p class="pricing-desc">Ideal for businesses ready to scale.</p>
+            </div>
+            <div class="pricing-amount">
+              $2,990 <span>/month</span>
+            </div>
+            <div class="pricing-features">
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Full visual identity suite</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>In-depth brand strategy</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Comprehensive brand manual</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Social media kit &amp; stationery</span>
+              </div>
+            </div>
+          </div>
+          <a href="contact.html" class="btn btn-primary btn-block">Get in touch</a>
+        </div>
+
+        <!-- Enterprise Plan -->
+        <div class="pricing-card reveal reveal-delay-2">
+          <div>
+            <div class="pricing-header">
+              <h3>Enterprise plan</h3>
+              <p class="pricing-desc">Complete branding solution.</p>
+            </div>
+            <div class="pricing-amount">
+              $4,990 <span>/month</span>
+            </div>
+            <div class="pricing-features">
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Complete brand strategy</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Multi-tier brand identity</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Packaging design &amp; 3D renders</span>
+              </div>
+              <div class="pricing-feature-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Complete website design</span>
+              </div>
+            </div>
+          </div>
+          <a href="contact.html" class="btn btn-dark btn-block">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ SECTION ================= -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-head section-head-centered reveal">
+        <span class="section-subtitle">Frequently Asked Questions</span>
+        <h2 class="section-title">Answers to Common Questions</h2>
+        <p class="section-desc mx-auto">From timelines to process details, here are quick answers to the most frequent questions I get.</p>
+      </div>
+
+      <div class="faq-container reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long does a brand identity project take?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>A standard brand identity project typically takes 3 to 6 weeks depending on scope, deliverables, and revision rounds.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you offer payment plans?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, all projects are split into structured milestones: typically 50% upfront to reserve the project slot and 50% upon final sign-off and asset delivery.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can you also design my website?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. Once the visual identity and guidelines are defined, I design high-converting, responsive web experiences tailored to your brand goals.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you work with international clients?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, I work with clients across the globe. All communication, presentations, feedback loops, and deliverables are handled seamlessly through digital channels.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What do I need to get started?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Simply reach out through the contact form with a brief outline of your project, target goals, and timeline. I'll get back to you within 24 hours to schedule an initial discovery call.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand-col">
+        <a href="index.html" class="brand-logo">Folioblox<span>®</span></a>
+        <h4 class="footer-brand-title">Great design should feel invisible.</h4>
+        <p>I'm a product designer focused on building clean, intuitive interfaces that solve real-world problems.</p>
+      </div>
+
+      <div class="footer-col footer-col-center">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-end">
+        <h4>Social</h4>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://tiktok.com/" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"/>
+              </svg>
+              <span>TikTok</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+              <span>YouTube</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Copyright Folioblox. All rights reserved.</p>
+      <p>Made with ❤️ by <a href="https://merxodevsolutions.pro.bd" target="_blank" rel="noopener">@merxodevsolutions</a></p>
+    </div>
+
+    <div class="footer-huge-watermark">
+      <span>Folioblox®</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
