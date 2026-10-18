@@ -2032,3 +2032,126 @@ textarea.form-control {
   white-space: nowrap;
 }
 
+/* --- 20. APPROACH & BENTO GRID (SCREENSHOT LAYOUT) --- */
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.approach-card {
+  position: relative;
+  border-radius: 28px;
+  overflow: hidden;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.approach-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.approach-card.card-wide {
+  grid-column: span 8;
+}
+
+.approach-card.card-narrow {
+  grid-column: span 4;
+}
+
+.approach-card.has-bg {
+  color: var(--color-white);
+}
+
+.approach-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.approach-card:hover .approach-bg-img {
+  transform: scale(1.04);
+}
+
+.approach-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 30%, rgba(0, 0, 0, 0.72) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.approach-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.approach-accent-line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-primary);
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+.approach-accent-line.light {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.approach-card.is-orange {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.approach-card.is-gray {
+  background-color: #f2f2f2;
+  color: var(--color-dark);
+}
+
+.approach-title {
+  font-family: var(--font-heading);
+  font-size: clamp(26px, 2.6vw, 36px);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+.approach-card.has-bg .approach-title,
+.approach-card.is-orange .approach-title {
+  color: var(--color-white);
+}
+
+.approach-title.text-dark {
+  color: var(--color-dark);
+}
+
+.approach-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.approach-card.has-bg .approach-desc,
+.approach-card.is-orange .approach-desc {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.approach-desc.text-muted {
+  color: var(--color-gray-text);
+}
+
